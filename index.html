@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Arrays</title>
+</head>
+<body>
+<h2>Javascript Arrays</h2>
+<p>Arrays are a special type of object in JavaScript that allow you to store multiple values in a single variable. They are useful for storing lists of items, such as numbers, strings, or even other objects.</p>
+<p>In JavaScript, you can create an array using square brackets [] and separate the items with commas.</p>
+<p id="demo"></p>
+<script>
+// Create an array  
+var fruits = ["Apple", "Banana", "Cherry", "Date"];
+var numbers = [1, 2, 3, 4, 5];
+var mixedArray = ["Hello", 42, true, null];
+document.getElementById("demo").innerHTML = fruits[2]
+document.getElementById("demo").innerHTML += "<br>" + numbers[3];
+document.getElementById("demo").innerHTML += "<br>" + mixedArray[1];
+document.getElementById("demo").innerHTML += "<br>" + mixedArray[0];
+document.getElementById("demo").innerHTML += "<br>" + mixedArray[2];
+document.getElementById("demo").innerHTML += "<br>" + mixedArray[3];
+</script>
+
+
+</body>
+</html>
